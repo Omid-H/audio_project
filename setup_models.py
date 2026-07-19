@@ -5,17 +5,15 @@ from tqdm import tqdm
 # Define the dictionary of models and their download URLs
 # Replace "URL_HERE" with actual direct download links when they are available
 MODELS = {
-    # ------ Base Models ------
-    "rvc_models/hubert_base.pt": "لینک دانلود hubert",
-    "rvc_models/rmvpe.pt": "لینک دانلود rmvpe",
+    # ------ مدل‌های پایه ------
+    "rvc_models/hubert_base.pt": "https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/hubert_base.pt",
+    "rvc_models/rmvpe.pt": "https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/rmvpe.pt",
     
-    # ------ Arnold ------
-    "rvc_models/Arnold/Arnold_v2_e250_s50250.pth": "لینک آرنولد",
-    "rvc_models/Arnold/added_IVF3675_Flat_nprobe_1_Arnold_v2_v2.index": "لینک ایندکس آرنولد",
-
-    # ------ Bab Asfanji ------
-    "rvc_models/BabAsfanj/Bab_Asfanj.pth": "لینک دانلود فایل اصلی باب اسفنجی",
-    "rvc_models/BabAsfanj/added_IVF571_Flat_nprobe_1_Bab_Asfanj_v2.index": "لینک ایندکس باب اسفنجی"
+    # ------ مدل باب اسفنجی ------
+    "rvc_models/BabAsfanj/Bab_Asfanj.zip": "https://huggingface.co/PlushymehereJC/Spongebob_Persian_dub/resolve/main/Bab_Asfanj.zip",
+    
+    # ------ مدل مورگان فریمن (جدید) ------
+    "rvc_models/MorganFreeman/Morgan_Freeman.zip": "https://huggingface.co/DeputyRipper/Morgan_Freeman_RVCV2/resolve/main/Morgan%20Freeman.zip"
 }
 
 def download_file(url: str, dest_path: str) -> bool:
