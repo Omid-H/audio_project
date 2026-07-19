@@ -5,10 +5,17 @@ from tqdm import tqdm
 # Define the dictionary of models and their download URLs
 # Replace "URL_HERE" with actual direct download links when they are available
 MODELS = {
-    "rvc_models/hubert_base.pt": "URL_HERE",
-    "rvc_models/rmvpe.pt": "URL_HERE",
-    "rvc_models/Arnold/Arnold_v2_e250_s50250.pth": "URL_HERE",
-    "rvc_models/Arnold/added_IVF3675_Flat_nprobe_1_Arnold_v2_v2.index": "URL_HERE",
+    # ------ Base Models ------
+    "rvc_models/hubert_base.pt": "لینک دانلود hubert",
+    "rvc_models/rmvpe.pt": "لینک دانلود rmvpe",
+    
+    # ------ Arnold ------
+    "rvc_models/Arnold/Arnold_v2_e250_s50250.pth": "لینک آرنولد",
+    "rvc_models/Arnold/added_IVF3675_Flat_nprobe_1_Arnold_v2_v2.index": "لینک ایندکس آرنولد",
+
+    # ------ Bab Asfanji ------
+    "rvc_models/BabAsfanj/Bab_Asfanj.pth": "لینک دانلود فایل اصلی باب اسفنجی",
+    "rvc_models/BabAsfanj/added_IVF571_Flat_nprobe_1_Bab_Asfanj_v2.index": "لینک ایندکس باب اسفنجی"
 }
 
 def download_file(url: str, dest_path: str) -> bool:
