@@ -1,8 +1,8 @@
 # 🎙️ سیستم پردازش صوت Real-time
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
-[![Gradio](https://img.shields.io/badge/UI-Gradio-orange.svg)](https://gradio.app/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
+[![Gradio](https://img.shields.io/badge/Gradio-UI-orange)](https://gradio.app/)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 یک جعبه‌ابزار همه‌جانبه و پیشرفته برای پردازش، افکت‌گذاری، جداسازی و تبدیل صدای هوشمند (Voice Conversion) با استفاده از مدل‌های هوش مصنوعی پیشرفته RVC v2 و کتابخانه‌های پردازش سیگنال دیجیتال (DSP) به همراه رابط کاربری مدرن تحت وب.
 
