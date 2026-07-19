@@ -203,3 +203,38 @@ audio_project/
 | **SpongeBob (باب اسفنجی انگلیسی)** | انگلیسی  | صدای کارتونی تیز و نوستالژیک کاراکتر باب اسفنجی اصلی         |
 | **BabAsfanj (باب اسفنجی فارسی)**   |  فارسی   | شبیه‌سازی صدای دوبلور فارسی باب اسفنجی برای انیمیشن و سرگرمی |
 | **50 Cent (فیفتی سنت)**            | انگلیسی  | صدای رپ و موسیقی هیپ‌هاپ                                     |
+
+---
+
+## 🤝 مشارکت در پروژه / Contributing
+
+ما همیشه از همکاری شما برای بهبود این پروژه استقبال می‌کنیم. فرقی نمی‌کند که می‌خواهید یک باگ را رفع کنید، قابلیت جدیدی اضافه کنید یا مستندات پروژه را بهبود بخشید؛ هرگونه مشارکت از طرف شما بسیار ارزشمند است.
+
+**مراحل مشارکت:**
+1. این مخزن را Fork کنید.
+2. یک شاخه (Branch) جدید برای تغییرات خود بسازید:
+   `git checkout -b feature/AmazingFeature`
+3. تغییرات خود را کامیت کنید:
+   `git commit -m 'Add some AmazingFeature'`
+4. شاخه خود را پوش کنید:
+   `git push origin feature/AmazingFeature`
+5. یک Pull Request ثبت کنید تا تغییرات را بررسی و ادغام کنیم.
+
+اگر ایده، پیشنهاد یا گزارشی از یک باگ دارید، خوشحال می‌شویم آن را از بخش Issues مطرح کنید.
+
+---
+
+We welcome all contributions to make this project even better. Whether you want to fix a bug, add a new feature, or improve the documentation, your help is appreciated.
+
+**How to contribute:**
+1. Fork this repository.
+2. Create your feature branch:
+   `git checkout -b feature/AmazingFeature`
+3. Commit your changes:
+   `git commit -m 'Add some AmazingFeature'`
+4. Push your branch:
+   `git push origin feature/AmazingFeature`
+5. Open a Pull Request for review.
+
+If you have any suggestions, ideas, or bug reports, feel free to share them in the Issues section.
+
